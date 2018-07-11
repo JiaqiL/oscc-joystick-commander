@@ -1,8 +1,6 @@
-
-
 # Can Setup
 
-Type:
+Connect Kvaser USB to PC. Type:
 
 ```
 sudo ifconfig -a
@@ -19,7 +17,7 @@ sudo ip link set can1 type can bitrate 500000
 sudo ip link set up can1
 ```
 
-# JoyStick Demo
+# Joystick Demo
 
 ## Build
 
@@ -37,8 +35,10 @@ because we are `KIA NIRO`.
 
 ## Run
 
-Start joystick:
+Connect Joystick USB to PC, and start joystick:
 
 ```
 ./oscc-joystick-commander 0
 ```
+
+and we should get some `successfully` messages.
